@@ -2,7 +2,6 @@
   "name": "covvaccine_fe",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://covvaccine-be.herokuapp.com/",
   "homepage": "http://digambrahma.github.io/covvaccine-fe",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
