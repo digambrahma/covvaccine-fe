@@ -10,7 +10,7 @@ function App() {
       <div className="container" >
         <div className="header">
           <h1 >
-            Welcome to <a href="https://covvaccine.com">Covvaccine!</a>
+            Welcome to <a href="https://digambrahma.github.io/covvaccine-fe/">Covvaccine!</a>
           </h1> 
         </div>
         <div>
