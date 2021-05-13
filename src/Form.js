@@ -13,7 +13,7 @@ export default function Form() {
    useEffect(() => {
     if (pincode != "" || email != "") {
        async function fetchSlots() {
-        const response = await fetch(`http://covvaccinebe-env-2.eba-mjdymdcz.ap-south-1.elasticbeanstalk.com/findslots?pincode=${encodeURIComponent(pincode)}&date=${encodeURIComponent(changeDateFormat(date))}&sendTo=${encodeURIComponent(email)}`)
+        const response = await fetch(`https://covvaccine-be.herokuapp.com/findslots?pincode=${encodeURIComponent(pincode)}&date=${encodeURIComponent(changeDateFormat(date))}&sendTo=${encodeURIComponent(email)}`)
         const json = await response.json()
         setStatus(json.status)
        }
