@@ -87,7 +87,7 @@ export default function Form() {
 
               <div className="submit">
                   
-                 <button type="submit" className="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Submit</button> 
+                 <button id="submit" type="submit" className="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Submit</button> 
 
               </div>
                <CustomModal show={modalShow}
